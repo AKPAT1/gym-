@@ -124,3 +124,45 @@ header
 /* End of Navbar */
 
 /*End of Header*/
+
+/*Honors*/
+.fromright
+{
+    animation-name: fromright;
+    animation-duration: 3s;
+}
+
+.fromleft
+{
+    animation-name: fromleft;
+    animation-duration: 3s;
+}
+
+@keyframes fromright
+{
+    0%
+    {
+        transform: translateX(120px);
+        opacity: 0;
+    }
+    100%
+    {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes fromleft
+{
+    0%
+    {
+        transform: translateX(-30px);
+        opacity: 0;
+    }
+    100%
+    {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+/*End of Honors*/
