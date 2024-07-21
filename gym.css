@@ -130,6 +130,7 @@ header
 {
     animation-name: fromright;
     animation-duration: 3s;
+    animation-fill-mode: forwards;
 }
 
 .fromleft
@@ -142,12 +143,12 @@ header
 {
     0%
     {
-        transform: translateX(120px);
+        transform: translateX(300px);
         opacity: 0;
     }
     100%
     {
-        transform: translateX(0px);
+        transform: translateX(100px);
         opacity: 1;
     }
 }
@@ -156,7 +157,7 @@ header
 {
     0%
     {
-        transform: translateX(-30px);
+        transform: translateX(-70px);
         opacity: 0;
     }
     100%
@@ -166,3 +167,29 @@ header
     }
 }
 /*End of Honors*/
+
+/*Services*/
+.card-shaw
+{
+    box-shadow: 10px 12px 30px black;
+}
+
+.heading
+{
+    position: absolute;
+    bottom: 50px;
+    left: 0px;
+    font-size: 25px;
+    background-color: #151f20;
+    width: 60%;
+    cursor: pointer;
+    opacity: 0.6;
+    transition: all 0.7s;
+    border-radius: 30px;
+}
+
+.heading:hover
+{
+    opacity: 0.9;
+}
+/*End of Services*/
