@@ -8,6 +8,18 @@
 {
     line-height: 35px;
 }
+
+.underline
+{
+    width: 150px;
+    border: 3px solid #eee;
+    margin: auto;
+}
+
+.underline-dark
+{
+    border: 3px solid #5c5b5b;
+}
 /*End of Utility*/
 
 /* Header*/
@@ -193,3 +205,22 @@ header
     opacity: 0.9;
 }
 /*End of Services*/
+
+/*Gallery*/
+.gallery-list
+{
+color: #777;
+cursor: pointer;
+user-select: none;
+}
+
+.item-active
+{
+    color:#0c3a55 ;
+}
+
+.color
+{
+    background-color: #3b20206f;
+}
+/*End of Gallery

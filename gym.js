@@ -35,3 +35,18 @@ $(window).scroll(function()
             $('.honors-img').removeClass('fromright')
         }
 })
+
+$('.gallery-list').click(function()
+{
+    let value = $(this).attr('data-filter')
+    $(this).addClass('item-active').siblings().removeClass('item-active')
+    if(value==='all')
+        {
+            $('.filter').show(1000)
+        }
+    else
+        {
+            $('.filter').not('.' + value).hide(1000);
+            $('.filter').filter('.' + value).show(1000);
+        }
+})
