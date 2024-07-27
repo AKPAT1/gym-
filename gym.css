@@ -221,6 +221,13 @@ user-select: none;
 
 .color
 {
-    background-color: #3b20206f;
+    background-color: #32193eb0;
 }
-/*End of Gallery
+/*End of Gallery*/
+
+/*Coaches*/
+.trainers
+{
+    background-color: #32585cb9;
+}
+/*End if Coaches*/

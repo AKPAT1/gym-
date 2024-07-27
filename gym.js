@@ -42,11 +42,11 @@ $('.gallery-list').click(function()
     $(this).addClass('item-active').siblings().removeClass('item-active')
     if(value==='all')
         {
-            $('.filter').show(1000)
+            $('div.filter').show(1000)
         }
     else
         {
-            $('.filter').not('.' + value).hide(1000);
-            $('.filter').filter('.' + value).show(1000);
+            $('div.filter').not('.' + value).hide(1000);
+            $('div.filter').filter('.' + value).show(1000);
         }
 })
