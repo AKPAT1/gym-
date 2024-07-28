@@ -50,3 +50,21 @@ $('.gallery-list').click(function()
             $('div.filter').filter('.' + value).show(1000);
         }
 })
+
+$(window).scroll(function()
+{
+    let pos = $(this).scrollTop();
+    console.log(pos)
+    if(pos >= 4300 )
+        {
+            $('.card-1').addClass('movel')
+            $('.card-2').addClass('movec')
+            $('.card-3').addClass('mover')
+        }
+        else
+        {
+            $('.card-1').removeClass('movel')
+            $('.card-2').removeClass('movec')
+            $('.card-3').removeClass('mover')
+        }
+})

@@ -231,3 +231,94 @@ user-select: none;
     background-color: #32585cb9;
 }
 /*End if Coaches*/
+
+/*Plans*/
+.card-1 , .card-2 , .card-3
+{
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.5)) ,url(./photo/photo-1593079831268-3381b0db4a77.avif); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 7px 0px 30px ; 
+    max-width: 300px;
+    max-height: 600px;
+}
+
+.cardlist
+{
+    border-bottom: 1px solid #eee;
+    width: 55%;
+}
+
+.btncard
+{
+    background-color: #0563603a;
+    width: 130px;
+    border-radius: 25px;
+    transition: all .5s;
+}
+.btncard:hover
+{
+    background-color: #0542636c;
+    transform: translateY(-3px);
+}
+
+@keyframes mover 
+{
+    0%
+    {
+        transform: translateX(100px);
+        opacity: 0;
+    }
+    100%
+    {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes movel
+{
+    0%
+    {
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%
+    {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+@keyframes movec
+{
+    0%
+    {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100%
+    {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.mover
+{
+    animation-name: mover;
+    animation-duration: 2s;
+}
+
+.movel
+{
+    animation-name: movel;
+    animation-duration: 2s;
+}
+
+.movec
+{
+    animation-name: movec;
+    animation-duration: 2s;
+}
+/*End of Plans*/
