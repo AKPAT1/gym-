@@ -380,4 +380,33 @@ user-select: none;
     opacity: 0;
     visibility: hidden;
 }
+
+/*
+@media(max-width:992px)
+{
+    .contact
+    {
+        background:linear-gradient(110deg,rgba(21,31,32,.4)0%,rgba(21,31,32,.6)50%);
+    }
+    .contactform
+    {
+        width: 60%;
+    }
+}
+*/
+
 /*End of Contact*/
+
+/*Footer*/
+.footerl
+{
+    color: #eee;
+    font-size: 13px;
+    transition: all .3s;
+}
+.footerl:hover
+{
+    color: #70aed2;
+    text-decoration: none;
+}
+/*End of Footer*/
